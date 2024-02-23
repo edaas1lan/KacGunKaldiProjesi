@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaç Gün Kaldı Projesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="remainDiv" id="remainDiv">
+            <h1>Etkinliğe Ne Kadar Var?</h1>
+            <form class="form" id="remainForm">
+            <label>
+            Tarih Seçiniz <input type="date" id="date-picker" name="date">
+                <button>Hesapla</button>
+            </label>
+        </form>
+        </div>
+        <div class="timeDiv" id="timeDiv" hidden>
+            <h1>Kalan Süre</h1>
+            <ul>
+            <li><span>10</span> Gün</li>
+            <li><span>10</span> Saat</li>
+            <li><span>10</span> Dakika</li>
+            <li><span>10</span> Saniye</li>
+             </ul>
+             <button id="reset">Sıfırla</button>
+        </div>
+        <div class="complate" id="complate" hidden>
+            <h1>Vakit Geldi</h1>
+            <button id="complatebutton">Yeniden Hesapla</button>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
